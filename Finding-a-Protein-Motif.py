@@ -1,7 +1,7 @@
 # import urllib library, we will meed it to connect with uniprot database website and extract protein strings from it.
 import urllib.request
 # open the .txt file and extract data from it.
-with open("/Users/HASAN/Desktop/Rosalind/rosalind_mprt.txt") as Data_file:
+with open("/Users/ASHRAF/Desktop/Rosalind/rosalind_mprt.txt") as Data_file:
     Data = Data_file.readlines()
 # extract uniprot IDs from the data file
 uniprot_IDs = dict()
