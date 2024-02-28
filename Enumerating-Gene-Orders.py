@@ -2,7 +2,7 @@
 from math import perm
 from itertools import permutations 
 # open the .txt file and extract data from it.
-with open("/Users/HASAN/Desktop/Rosalind/rosalind_perm_1_dataset.txt") as Data_file:
+with open("/Users/ASHRAF/Desktop/Rosalind/rosalind_perm_1_dataset.txt") as Data_file:
     Data = Data_file.readline().strip()
 set_size = int(Data)
 print("The size of the set is:", set_size)
