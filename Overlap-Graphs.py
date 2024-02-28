@@ -1,6 +1,6 @@
 
 # open the .txt file and extract data from it.
-with open("/Users/HASAN/Desktop/Rosalind/rosalind_grph_1_dataset.txt") as Data_file:
+with open("/Users/ASHRAF/Desktop/Rosalind/rosalind_grph_1_dataset.txt") as Data_file:
     Data = Data_file.readlines()
 # format the FASTA data in a tidy and readable form (I chose to format them in a dictionary in this case)
 num_of_fragment = 0
