@@ -1,7 +1,7 @@
 # import comb (combinations) function from math library
 from math import comb
 # open the .txt file and extract data from it.
-with open("/Users/HASAN/Desktop/Rosalind/rosalind_lia_1_dataset.txt") as Data_file:
+with open("/Users/ASHRAF/Desktop/Rosalind/rosalind_lia_1_dataset.txt") as Data_file:
     Data = Data_file.readline().strip()
 k, n = map(int, Data.split(" "))
 # this CDF function below will calculate The probability that at least N AaBb organisms will belong
